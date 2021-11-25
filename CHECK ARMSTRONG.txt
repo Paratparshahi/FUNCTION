@@ -1,0 +1,20 @@
+arm=int(input())
+temp=arm 
+qrs=arm
+s=0
+num=0
+l=0
+while(temp>0):
+    s=s+1
+    temp=temp//10
+    
+while(arm>0):
+    
+    l=arm%10
+    num+=l**s 
+    arm=arm//10
+if qrs==num:
+    print('true')
+          
+else:
+    print('false')
