@@ -1,0 +1,8 @@
+S=int(input())
+E=int(input())
+W=int(input())
+F=S
+while(F<=E):
+    C=(F-32)*5/9
+    print(F,int(C))
+    F=F+W
